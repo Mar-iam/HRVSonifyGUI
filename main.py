@@ -320,6 +320,5 @@ if __name__ == '__main__':
 
     widget = Window(root, player)
     OK_btn = Button(root, text='Quit', width=20, command=root.destroy).grid(row=6, column=1, columnspan=4, pady=20)
-    OK_btn = Button(root, text='Quit', width=20, command=root.destroy).grid(row=6, column=1, columnspan=4, pady=20)
 
     root.mainloop()
