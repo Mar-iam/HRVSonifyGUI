@@ -150,9 +150,8 @@ class Window:
         import tkinter.filedialog as tkf
         from tkinter import messagebox
 
-        # self.filename = tkf.askopenfilename(filetypes= (("Text Files", "*.txt"), ("All files", "*.*") ))
-
-        self.filename = 'C:/Users/masb3/PycharmProjects/HRVSonify/ironman/I2.txt'
+        self.filename = tkf.askopenfilename(filetypes= (("Text Files", "*.txt"), ("All files", "*.*") ))
+        # self.filename = 'ironman/I2.txt'
 
         if not (self.filename).endswith(".txt"):
             messagebox.showerror("File Type Error", "Failed to read file " + self.filename +
